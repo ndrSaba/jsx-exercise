@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const name = 'Andrea Sabato'
-const sayHello = <h1>Hello, {name}</h1>
+const sum = (a, b) => a + b
+const result = <h2>{sum(10, 10)}</h2>
 
-ReactDOM.render(sayHello,document.getElementById('root'));
+ReactDOM.render(result,document.getElementById('root'));
